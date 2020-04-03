@@ -2,17 +2,22 @@
 <html>
     <head>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="js/JQuery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/JQuery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
     <title>JavaScript Flashcards</title>
     </head>
     <body>
         <div class="container">
             <H1>Learning how to use JavaScript?</H1>
             <p>Click on one of these buttons to get a helpful little flashcard!</p>
+            <div id="initially-hidden">
+                <p>JavaScript<span class="clickable">Click here</span></p>
+            </div>
 
-            <button type="button" id="JavaScript">JavaScript</button>
-            <button type="button" id="JavaScript">Operators</button>
+            <div id="initially-showing">
+                <p>an object-oriented computer programming language commonly used to create interactive effects within web browsers. <span class="clickable">Hide</span></p>
+            </div>
         </div>
     </body>
 </html>

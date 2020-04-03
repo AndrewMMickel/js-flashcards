@@ -1,9 +1,12 @@
-.js-flashcard {
-    border: 5px solid gray;
-    width: 300px;
-    float: left;
-}
-
 #initially-showing {
     display: none;
+  }
+
+.clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  
+.clickable:hover {
+    text-decoration: underline;
   }

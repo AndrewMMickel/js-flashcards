@@ -1,7 +1,5 @@
 $(document).ready(function() {
-    $("button#JavaScript").click(function() {
-        $("body").removeClass();
-        $("body").addClass("js-flashcard");
+    $(".clickable").click(function() {
         $("#initially-showing").toggle();
         $("#initially-hidden").toggle();
     });
