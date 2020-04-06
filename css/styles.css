@@ -1,13 +1,14 @@
-.flashcard-front {
+#flashcard-front {
   border: 5px solid gray;
   float: left;
-  background-color: honeydew;
+  background-color: white;
   color: black;
-  }
+}
 
-.flashcard-back {
-    border: 5px solid white;
-    float: left;
-    background-color: black;
-    color: white;
-  }
+#flashcard-back {
+  display: none;
+  border: 5px solid white;
+  float: left;
+  background-color: black;
+  color: white;
+}
