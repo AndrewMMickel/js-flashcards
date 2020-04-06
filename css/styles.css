@@ -5,9 +5,9 @@
   color: black;
   }
 
-  .flashcard-back {
+.flashcard-back {
     border: 5px solid white;
     float: left;
     background-color: black;
     color: white;
-    }
+  }
