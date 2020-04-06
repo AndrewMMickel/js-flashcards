@@ -1,6 +1,13 @@
 $(document).ready(function() {
-    $(".clickable").click(function() {
-        $("#initially-showing").toggle();
-        $("#initially-hidden").toggle();
+    $(".flashcard-front").click(function() {
+        $("flashcard-front").removeClass();
+        $("flashcard-fron").addClass("flashcard-back");
+    });
+});
+
+$(document).ready(function() {
+    $(".flashcard-back").click(function() {
+        $("flashcard-front").removeClass();
+        $("flashcard-back").addClass("flashcard-front");
     });
 });

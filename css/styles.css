@@ -1,12 +1,13 @@
-#initially-showing {
-    display: none;
+.flashcard-front {
+  border: 5px solid gray;
+  float: left;
+  background-color: honeydew;
+  color: black;
   }
 
-.clickable {
-    cursor: pointer;
-    color: #0088cc;
-  }
-  
-.clickable:hover {
-    text-decoration: underline;
-  }
+  .flashcard-back {
+    border: 5px solid white;
+    float: left;
+    background-color: black;
+    color: white;
+    }
