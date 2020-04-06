@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".flashcard-front").click(function() {
         $("flashcard-front").removeClass();
-        $("flashcard-fron").addClass("flashcard-back");
+        $("flashcard-front").addClass("flashcard-back");
     });
 });
 
